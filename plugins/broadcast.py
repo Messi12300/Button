@@ -3,7 +3,7 @@ import datetime
 import time
 from database.users_chats_db import db
 from info import ADMINS
-from utils import users_broadcast, groups_broadcast, temp, get_readable_time
+from utils import groups_broadcast, temp, get_readable_time
 import asyncio
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup 
 
